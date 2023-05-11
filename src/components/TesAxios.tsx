@@ -14,7 +14,7 @@ function Users() {
   return (
     <div>
       Users
-      {post.map((item, i) => {
+      {post.map((item:any, i) => {
         return (
           <div key={i}>
             <p>{item?.name}</p>
